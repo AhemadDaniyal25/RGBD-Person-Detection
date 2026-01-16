@@ -205,3 +205,7 @@ cython_debug/
 marimo/_static/
 marimo/_lsp/
 __marimo__/
+# TUM Dataset (too large for GitHub)
+TUM_Dataset/rgbd_dataset_freiburg3_walking_xyz/rgb/
+TUM_Dataset/rgbd_dataset_freiburg3_walking_xyz/depth/
+TUM_Dataset/*.tgz
