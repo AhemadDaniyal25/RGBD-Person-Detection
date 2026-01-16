@@ -1,0 +1,55 @@
+============================================================
+DEPENDABILITY ANALYSIS REPORT
+RGB-D Person Detection Performance Under Stress
+============================================================
+
+SUMMARY STATISTICS:
+------------------------------------------------------------
+
+Normal:
+  Recall:     100.00%
+  Precision:  100.00%
+  Detections: 1/1
+  Avg IoU:    1.000
+
+25% Occluded:
+  Recall:     0.00%
+  Precision:  0.00%
+  Detections: 0/1
+
+50% Occluded:
+  Recall:     0.00%
+  Precision:  0.00%
+  Detections: 0/1
+
+Bright Light:
+  Recall:     100.00%
+  Precision:  100.00%
+  Detections: 1/1
+  Avg IoU:    0.952
+
+Dark Light:
+  Recall:     100.00%
+  Precision:  100.00%
+  Detections: 1/1
+  Avg IoU:    0.984
+
+============================================================
+KEY FINDINGS:
+------------------------------------------------------------
+
+1. OCCLUSION IMPACT:
+   - Baseline recall: 100%
+   - 50% occlusion recall: 0%
+   - Performance drop: 100 percentage points
+   ⚠ WARNING: Recall below safety threshold (80%)
+
+2. LIGHTING ROBUSTNESS:
+   - Bright lighting: 100%
+   - Dark lighting: 100%
+
+3. RECOMMENDATIONS:
+   - Implement multi-view camera setup for occlusion handling
+   - Use depth consistency filtering (already implemented)
+
+============================================================
