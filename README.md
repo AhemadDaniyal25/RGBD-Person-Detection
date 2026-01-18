@@ -236,7 +236,5 @@ Focus: Robust AI Systems for Autonomous Applications
 
 ---
 
-**Status**: Interview-ready demonstration of safety engineering principles for autonomous perception systems.
-
 
 
